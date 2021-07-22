@@ -7,7 +7,7 @@ import pprint
 
 #Create socket
 serverSocket = socket(AF_INET, SOCK_STREAM)
-HOST = '192.168.0.108'
+HOST = 'localhost'
 PORT = 42790
 serverSocket.connect((HOST, PORT))
 
